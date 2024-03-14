@@ -10,6 +10,21 @@ main{
     height: 100vh;
     width: auto;
     background-color: blue;
+    position: relative;
+}
+
+.speaker{
+    position: absolute;
+    top: 0;
+    left: 92%;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem;
+    z-index: 2;
+    width:auto
+
 }
 
 .container{
@@ -22,7 +37,7 @@ main{
     background-color: green;
     height: 100%;
     width: 100%;
-    padding: 2rem;
+    padding: 4rem;
     display: flex;
     flex-wrap: wrap;
     
@@ -33,12 +48,26 @@ main{
     width: calc(100% / 7);
     height: calc(80vh / 5);
     padding-right: 0.3rem;
-    margin-bottom: 0.3rem;
+    position: relative;
+   
     
 }
+
+.badge{
+    top: 74%;
+    left: 0;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color: white;
+    padding: 0.2rem;
+    z-index: 2;
+}
+
+
 img{
     width: 100%;
     height: calc(80vh / 5 - 0.25rem);
+    
     
 }
 /***** footer toolbar *****/
