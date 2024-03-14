@@ -22,7 +22,7 @@ main{
     background-color: green;
     height: 100%;
     width: 100%;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     
@@ -31,8 +31,15 @@ main{
 
 .card{
     width: calc(100% / 7);
-    padding: 0.8rem;
     height: calc(80vh / 5);
+    padding-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    
+}
+img{
+    width: 100%;
+    height: calc(80vh / 5 - 0.25rem);
+    
 }
 /***** footer toolbar *****/
 
