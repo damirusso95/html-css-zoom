@@ -67,13 +67,14 @@ main{
 img{
     width: 100%;
     height: calc(80vh / 5 - 0.25rem);
+    object-fit: cover;
     
     
 }
 /***** footer toolbar *****/
 
 .toolbar{
-    height: 10%;
+    max-height: 10%;
     width: auto;
     color: aliceblue;
     background-color: rgb(28, 28, 28);
